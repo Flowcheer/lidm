@@ -27,8 +27,7 @@ pkgs.stdenv.mkDerivation rec {
     linux-pam
   ];
 
-  makeFlags =
-    [
+  makeFlags = [
       "DESTDIR=$(out)"
       "PREFIX="
     ]
